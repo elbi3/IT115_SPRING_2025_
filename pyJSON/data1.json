@@ -1,0 +1,12 @@
+{
+    "name": "Hellery Franks",
+    "age": "780",
+    "city": "Lost Angeles",
+    "interests": [
+        "swords",
+        "dance",
+        "shoes",
+        "pastry"
+    ],
+    "is_student": true
+}
