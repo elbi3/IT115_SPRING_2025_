@@ -1,7 +1,7 @@
-#import class library "json" with the keyword "import"
+#import Python class library "json" with the keyword "import"
 import json
 
-#create the data structure dictionary using the curly braces (4 spaces!)
+#create the data structure dictionary using the curly braces (include 4 spaces!)
 #add key:value pairs and include different data type values such as Boolean or Array
 data1 = {
 
@@ -13,10 +13,10 @@ data1 = {
 
 }
 
-#use with keyword in with statement
-#with open(Name, 'w' as json_file) use dump class library method: json.dump()
+#Use the `with` keyword in a "with statement"
+#Using "with open(file_name, 'w' as json_file)", call dump class library method: json.dump()
 with open('data1.json', 'w') as json_file:
-    #dump our dictionary data1 into the file
+    #dump our dictionary data1 (from line 6) into the file:
     json.dump(data1,json_file,indent=4)
 
 #print a message to show that above code has executed successfully:
